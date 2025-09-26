@@ -6,19 +6,39 @@ A simple static website built with HTML &amp; CSS that tells the story of the FI
 This website provides an interactive timeline of the World Cup, starting from the first tournament in 1930 up to the latest editions. It includes information about host countries, champions, and key moments that shaped the tournament’s history.
 
 ## 🖥️📱 Responsive Design
-It has a responsive design that works with most devices.
+*  It has a responsive design that works with most devices.
+
 <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
 
 ## 🧱 Script languages Used
 
 * HTML
-* CSS3
+* CSS
 
-# 🧱 Technologies Used
+## 🧱 Technologies Used
 
-*  Photoshop (Edit raster images).
-*  Illustrator (Design a logo as a vector Image).
-*  formsubmit.co (Connect my form to this form endpoint service).
-*  chatgpt (to support and answer on my questions).
+*  Adobe Photoshop (Edit raster images).
+*  Adobe Illustrator (Design a logo as a vector Image).
+*  Formsubmit.co (Connect my form to this form endpoint service).
+*  Chatgpt (to support and answer on my questions).
 *  Git & Github (save my project files and deploy my project on GitHub Pages).
+
+## 📚 Sources of images and information
+
+*  Images from Adobe Stock.
+*  Information from Chatgpt.
+
+## Website contents
+
+*  Three pages:
+  -  Home Page (Hero Section, Gallery, Facts):
+  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+  -  Timeline (Hero Section, Tournaments):
+  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+  -  Contact Us (Hero Section, Form):
+  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
   
