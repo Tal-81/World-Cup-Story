@@ -32,15 +32,17 @@ This website provides an interactive timeline of the World Cup, starting from th
 
 *  **Three pages:**
 1.  _Home Page (Hero Section, Gallery, Facts)_:
+       <img src="assets/images/homepage_hero.png" style="max-width:250px" alt="Hero section in home page"/>
+       <img src="assets/images/homepage_gallery.png" style="max-width:250px" alt="Gallery section in homepage"/>
+       <img src="assets/images/homepage_facts.png" style="max-width:250px" alt="Facts section in homepage"/>
      
-  <img src="assets/images/homepage_hero.png" style="max-width:250px" alt="Hero section in home page"/>
-  <img src="assets/images/homepage_gallery.png" style="max-width:250px" alt="Gallery section in homepage"/>
-  <img src="assets/images/homepage_facts.png" style="max-width:250px" alt="Facts section in homepage"/>
-1.    *Timeline (Hero Section, Tournaments)*:
+
+2. *Timeline (Hero Section, Tournaments)*
     
   <img src="assets/images/timeline_hero.png" style="max-width:250px" alt="Hero section in timeline"/>
   <img src="assets/images/timeline_tournaments.png" style="max-width:250px" alt="Tournaments section in timeline"/>
-1.    *Contact Us (Hero Section, Form)*:
+  
+3.  *Contact Us (Hero Section, Form)*:
     
   <img src="assets/images/contactus_hero.png" style="max-width:250px" alt="Hero section in contactus"/>
   <img src="assets/images/contactus_form.png" style="max-width:250px" alt="Form section in contactus"/>
