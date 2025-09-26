@@ -10,5 +10,7 @@ It has a responsive design that works with most devices.
 <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
 
 ## 🧱 Script languages Used
-  *HTML
-  *CSS3
+
+* HTML
+* CSS3
+  
