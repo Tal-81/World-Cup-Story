@@ -13,4 +13,12 @@ It has a responsive design that works with most devices.
 
 * HTML
 * CSS3
+
+# 🧱 Technologies Used
+
+*  Photoshop (Edit raster images).
+*  Illustrator (Design a logo as a vector Image).
+*  formsubmit.co (Connect my form to this form endpoint service).
+*  chatgpt (to support and answer on my questions).
+*  Git & Github (save my project files and deploy my project on GitHub Pages).
   
