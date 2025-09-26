@@ -28,17 +28,20 @@ This website provides an interactive timeline of the World Cup, starting from th
 *  Images from Adobe Stock.
 *  Information from Chatgpt.
 
-## Website contents
+## 📄 Website contents
 
 *  Three pages:
   -  Home Page (Hero Section, Gallery, Facts):
-  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
-  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
-  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+     
+  <img src="assets/images/homepage_hero.png" style="max-width:250px" alt="Hero section in home page"/>
+  <img src="assets/images/homepage_gallery.png" style="max-width:250px" alt="Gallery section in homepage"/>
+  <img src="assets/images/homepage_facts.png" style="max-width:250px" alt="Facts section in homepage"/>
   -  Timeline (Hero Section, Tournaments):
-  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
-  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+    
+  <img src="assets/images/timeline_hero.png" style="max-width:250px" alt="Hero section in timeline"/>
+  <img src="assets/images/timeline_tournaments.png" style="max-width:250px" alt="Tournaments section in timeline"/>
   -  Contact Us (Hero Section, Form):
-  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
-  <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+    
+  <img src="assets/images/contactus_hero.png" style="max-width:250px" alt="Hero section in contactus"/>
+  <img src="assets/images/contactus_form.png" style="max-width:250px" alt="Form section in contactus"/>
   
