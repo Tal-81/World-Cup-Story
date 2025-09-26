@@ -8,3 +8,7 @@ This website provides an interactive timeline of the World Cup, starting from th
 ## 🖥️📱 Responsive Design
 It has a responsive design that works with most devices.
 <img src="assets/images/mockup.png" style="max-width:100%" alt="Mockup of World Cup Story website on multi device"/>
+
+## 🧱 Script languages Used
+  *HTML
+  *CSS3
