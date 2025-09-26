@@ -9,3 +9,4 @@ This website provides an interactive timeline of the World Cup, starting from th
 It has a responsive design that works with most devices.
 
 ![Mockup of World Cup Story website on multi device](https://www.dropbox.com/scl/fi/g6c52nqpxeb9clqn8a1d9/mockup.png?rlkey=q9cnp3z6ygsru9g29196re67k&st=u8p1pilo&dl=0)
+<img src="https://www.dropbox.com/scl/fi/g6c52nqpxeb9clqn8a1d9/mockup.png?rlkey=q9cnp3z6ygsru9g29196re67k&e=1&st=u8p1pilo&dl=0" alt="Mockup of World Cup Story website on multi device" style="max-width:100%"/>
