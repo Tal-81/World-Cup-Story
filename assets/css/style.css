@@ -89,9 +89,7 @@ select {
 }
 .btn:hover {
   background: var(--golden-color-hover);
-  color: var(--font-color-secondary);
   border: 3px solid rgb(175 156 22 / 80%);
-  border-radius: 20px;
 }
 
 .section-title {
@@ -108,7 +106,7 @@ select {
 }
 
 @keyframes fadeIn {
-  0% {
+  0%, 100% {
     box-shadow: 8px 8px 0px var(--primary-color),
                 -8px -8px 0px var(--secondary-color);
     border-bottom: 8px solid var(--secondary-color);
@@ -123,14 +121,6 @@ select {
     border-right: 8px solid var(--primary-color);
     border-top: 8px solid var(--secondary-color);
     border-left: 8px solid var(--secondary-color);
-  }
-  100% {
-    box-shadow: 8px 8px 0px var(--primary-color),
-                -8px -8px 0px var(--secondary-color);
-    border-bottom: 8px solid var(--secondary-color);
-    border-right: 8px solid var(--secondary-color);
-    border-top: 8px solid var(--primary-color);
-    border-left: 8px solid var(--primary-color);
   }
 }
 
@@ -222,9 +212,8 @@ main {
 }
 
 #container header nav ul li a {
-  color: var(--font-color-primary);
-  font-size: 18px;
   color: var(--font-color-secondary);
+  font-size: 18px;
   cursor: pointer;
 }
 #container header nav ul li:hover:not(#active_page) {
@@ -393,10 +382,7 @@ footer p {
     display: none;
   }
 
-  .burger-menu {
-    display: flex;
-  }
-
+  .burger-menu,
   .nav-menu {
     display: flex;
   }
