@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="World Cup Story is a website about World Cup history"
+    >
+    <meta
+      name="keywords"
+      content="World Cup, soccer, fifa, football, history"
+    >
+    <meta name="author" content="Talal" >
+    <title>World Cup Story | Contact Us</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" >
+    <link rel="preload" as="image" href="assets/images/hero_img.webp" >
+    <link rel="stylesheet" href="assets/css/style.css" >
+    <link rel="stylesheet" href="assets/css/contactus.css" >
+  </head>
+  <body>
+    <div id="container">
+      <!-- header -->
+      <header>
+        <div class="overlay"></div>
+        <nav>
+          <a href="index.html">
+            <img
+              src="assets/images/worldcup-logo.webp"
+              alt="World Cup Story Logo"
+            >
+          </a>
+
+          <!-- menu in wide screen view -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li id="active_page"><a href="#">Contact us</a></li>
+          </ul>
+
+          <!-- menu in mobile & tablet view -->
+          <input type="checkbox" id="menu-toggle" >
+          <label
+            for="menu-toggle"
+            class="burger-menu"
+            aria-label="click here to show the main menu"
+            tabindex="0"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <menu class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="#" id="active-page">Contact us</a></li>
+          </menu>
+        </nav>
+
+        <!-- hero section -->
+        <section id="hero">
+          <div class="hero_content">
+            <div>
+              <span>send us</span>
+              <h1>Suggestions</h1>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <!-- main -->
+      <main>
+        <section id="form_section">
+          <h1 class="section-title" id="form">Contact Us</h1>
+          <p>
+            Have questions about World Cup Story? Want to contribute stories or
+            correct information? Please, reach out to us using the form.
+          </p>
+          <div class="form-container">
+            <form
+              action="https://formsubmit.co/orange.2009@hotmail.com"
+              method="POST"
+            >
+              <div>
+                <label for="name">Name(required):</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  maxlength="50"
+                  required
+                >
+              </div>
+
+              <div>
+                <label for="email">Email(required):</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  maxlength="50"
+                  required
+                >
+              </div>
+
+              <div>
+                <label for="message">Message(required):</label>
+                <textarea
+                  rows="10"
+                  cols="30"
+                  name="message"
+                  id="message"
+                  placeholder="Write your message..."
+                  maxlength="1000"
+                  required
+                ></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="btn">Send</button>
+                <img
+                  src="assets/images/logo_animated.gif"
+                  alt="World Cup Story Logo"
+                  width="100"
+                >
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <a href="#container" aria-label="scroll to the top of the page">
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="40px"
+              viewBox="0 -960 960 960"
+              width="40px"
+              fill="#F3F3F3"
+              aria-hidden="true"
+            >
+              <path
+                d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"
+              />
+            </svg>
+          </span>
+        </a>
+        <img src="assets/images/trophy_icon.webp" alt="world cup trophy" >
+        <p>&copy; 2025 World Cup Story</p>
+      </footer>
+    </div>
+  </body>
+</html>
