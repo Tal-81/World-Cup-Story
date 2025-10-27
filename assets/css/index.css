@@ -203,6 +203,50 @@ main .gallery-container .gallery-item div p {
   font-style: italic;
 }
 
+  /* -<<< facts section >>>- */
+  
+main #facts_section {
+  position: relative;
+  padding: 120px 0;
+}
+
+main .facts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 50px;
+  padding: 0;
+  gap: 0;
+}
+
+main .facts-container >  li {
+  background-color: var(--bkg-primary);
+  width: 180px;
+  min-width: 180px;
+  height: 180px;
+  text-align: justify;
+  border: 4px solid var(--secondary-color);
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+main .facts-container >  li h2 {
+  color: aliceblue;
+  background-color: var(--bkg-secondary);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 1);
+  
+}
+
+main .facts-container >  li p {
+  text-align: center !important;
+  font-weight: 300;
+  text-overflow: ellipsis;
+   text-shadow: 0 0 6px rgba(255, 255, 0, 0.5);
+}
+
 /*____________________ mobile ______________________*/
 
 @media (max-width: 767px) {
