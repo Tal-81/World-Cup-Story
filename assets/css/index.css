@@ -143,6 +143,66 @@
   } 
 }
 
+/*____________________ main ______________________*/
+
+  /* -<<< gallery section >>>- */
+ 
+main #gallery_section {
+  padding: 120px 0 0;
+  text-align: center;
+}
+
+main .gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 90%;
+  margin: 0 auto;
+  gap: 0;
+}
+
+main .gallery-container .gallery-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  min-height: 250px;
+  overflow: hidden;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+main .gallery-container .gallery-item img {
+  background-color: transparent;
+  opacity: 1;
+  transition: all 1.5s ease-in-out;
+}
+main .gallery-container .gallery-item:hover img,
+main .gallery-container .gallery-item:focus img {
+  opacity: 0;
+}
+main .gallery-container .gallery-item:hover div,
+main .gallery-container .gallery-item:focus div { 
+  opacity: 1;
+}
+
+main .gallery-container .gallery-item div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+}
+
+main .gallery-container .gallery-item div p {
+  font-style: italic;
+}
+
 /*____________________ mobile ______________________*/
 
 @media (max-width: 767px) {
@@ -169,4 +229,22 @@
     display: none;
   }
 
+}
+
+@media (hover: hover) and (pointer: fine) {
+  main .gallery-container .gallery-item:hover img {
+    opacity: 0;
+  }
+  main .gallery-container .gallery-item:hover div { 
+    opacity: 1;
+  }
+}
+ 
+@media (hover: none) and (pointer: coarse) {
+  main .gallery-container .gallery-item:focus img {
+    opacity: 0;
+  }
+  main .gallery-container .gallery-item:focus div { 
+    opacity: 1;
+  }
 }
