@@ -13,19 +13,57 @@
   >
   <meta name="author" content="Talal" >
   <title>World Cup Story | Home</title>
+      <!-- favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" >
   <link rel="stylesheet" href="assets/css/style.css" >
   <link rel="stylesheet" href="assets/css/index.css" >
 </head>
 <body>
   <div id="container">
+    
           <!-- header -->
       <header>
+        <nav>
+          <a href="index.html">
+            <img
+              src="assets/images/worldcup-logo.webp"
+              alt="World Cup Story Logo"
+            >
+          </a>
 
+          <!-- menu on wide screen view -->
+          <ul>
+            <li id="active_page"><a href="#">Home</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+          </ul>
+
+          <!-- menu on mobile & tablet view -->
+          <input type="checkbox" id="menu-toggle" >
+          <label
+            for="menu-toggle"
+            class="burger-menu"
+            aria-label="click here to show the main menu"
+            tabindex="0"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <menu class="nav-menu">
+            <li><a href="#" id="active-page">Home</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+          </menu>
+        </nav>
       </header>
+
           <!-- main -->
       <main>
 
       </main>
+
           <!-- footer -->
       <footer>
     

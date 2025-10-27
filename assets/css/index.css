@@ -1,0 +1,9 @@
+/*____________________ header ______________________*/
+
+#container header {
+  min-height: calc(100vh - 20px);
+  background: url(../images/hero_img.webp) no-repeat center center/cover;
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+  border-bottom: 2px solid  var(--primary-color);
+}
