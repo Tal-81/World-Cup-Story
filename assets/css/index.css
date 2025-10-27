@@ -7,3 +7,109 @@
   border-bottom-right-radius: 50% 30%;
   border-bottom: 2px solid  var(--primary-color);
 }
+
+#container header #hero .hero_content {
+  flex-basis: 60%;
+  background-color: rgb(240 255 255 / 65%);
+  padding: 5px 20px 40px;
+  max-width: 700px;
+  border-radius: 20px;
+  border: 3px solid var(--primary-color);
+  z-index: 5;
+}
+
+#container header #hero  .hero_content h1 {
+  font-size: 30px;
+  color: var(--font-color-primary);
+  margin-bottom: 30px;
+  text-shadow: -2px -2px 4px #ffffff, 2px 2px 4px #ffffff;
+}
+
+#container header #hero  .hero_content h1 span {
+  text-underline-offset: 7px;
+  letter-spacing: 1.6px;
+  animation: show_underline .3s ease 3s forwards;
+}
+
+@keyframes show_underline {
+  from {text-decoration: underline solid var(--primary-color) 0px;}
+  to {text-decoration: underline solid var(--primary-color) 4px;}
+}
+
+#container header #hero .hero_content p {
+  color: var(--font-color-primary);
+  font-weight: 700;
+  line-height: 1.5;
+  word-spacing: 2px;
+  letter-spacing: 0.8px;
+}
+
+#container header #hero .hero_content a {
+  position: relative;
+}
+
+#container header #hero .hero_content a svg {
+  position: absolute;
+  top: 48%;
+  left: 16px;
+  transform: translateY(-50%);
+  width: 23px;
+  height: 23px;
+}
+#container header #hero  .hero_content a:hover svg {
+  filter: contrast(2) drop-shadow(2px 2px 1px yellow) sepia(80%) saturate(300%);
+}
+
+#container header #hero  .hero_image {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: fit-content;
+  user-select: none;
+  z-index: 5;
+}
+
+#container header #hero .hero_image img {
+  position: relative;
+  height: 300px;
+  margin: auto;
+  transition: all 0.3s ease;
+  filter: drop-shadow(5px 8px 6px var(--accent-color)) 
+          drop-shadow(-5px -8px 6px var(--accent-color)) 
+          contrast(1.2);
+  animation: opacity_trophy 5s ease-in-out;
+}
+
+@keyframes opacity_trophy {
+  0% {opacity: 0%;}
+  100% {opacity:100%;}
+}
+
+/*____________________ mobile ______________________*/
+
+@media (max-width: 767px) {
+
+  #container header #hero .hero_content {
+    position: relative;
+    flex-basis: 90%;
+    max-width: 700px;
+  }
+
+  #container header #hero .hero_content::after {
+    position: absolute;
+    content: "";
+    bottom:  -10%;
+    right: 20px;
+    width: 40px;
+    height: 110px;
+    background: url(../images/trophy.png) no-repeat center center / 40px auto;
+    filter: drop-shadow(-5px -5px 0 rgba(0, 0, 0, 0.3));
+    z-index: 10;
+  }
+
+  #container header #hero  .hero_image {
+    display: none;
+  }
+
+}
