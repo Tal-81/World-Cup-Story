@@ -82,3 +82,131 @@
   text-shadow: 0 4px 0px rgba(0,0,0,.5), 0 6px 0px rgba(255, 196, 0, 0.5);
 }
 
+
+/*____________________ main ______________________*/
+
+main {
+  position: relative;
+  padding: 50px 0 120px;
+}
+
+main #timeline_section {
+  margin: auto;
+}
+
+    /* -<<< intro >>>- */
+
+main .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  gap: 25px;
+  user-select: auto;
+}
+
+main .intro .intro_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  margin: 0;
+  width: fit-content;
+  gap: 5px;
+  user-select: auto;
+}
+
+main .intro span {
+  position: relative;
+  font-family: "Nunito","MDPrimerTest-Black";
+  font-size: clamp(24px, 7vw, 65px);
+  padding: 3px 3px;
+  margin: 0;
+  word-wrap: normal;
+  color: var(--bkg-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid #618e71;
+  border-top: 2px solid #618e71;
+  text-shadow: 3px 1px 3px #052915;
+  z-index: 10;
+}
+
+main .intro span:first-of-type {
+  border-left: 2px solid #618e71;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+main .intro span:last-of-type {
+  border-right: 2px solid #618e71;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+main .intro span:after {
+  position: absolute;
+  content: attr(data-talal);
+  top: .15em;
+  left: .15em;
+  z-index: -1;
+  text-shadow: none;
+  background-size: .05em .05em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shad-anim 15s linear infinite;
+  background-image: linear-gradient(
+                  45deg, transparent 45%, 
+                  hsl(0deg 0% 0%) 45%, 
+                  hsl(0deg 0% 0%) 55%, 
+                  transparent 0);
+}
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+}
+
+main .intro span:first-of-type:before {
+  position: absolute;
+  content: "FIFA";
+  top: -15px;
+  left: 0;
+  font-family: "Merriweather", serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  text-shadow: none;
+  width: fit-content;
+  height: fit-content;
+  background-color: #618e71;
+  padding: 1px 6px;
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+}
+
+main .intro img {
+  width: 60px;
+  aspect-ratio: 1/2.5;
+  z-index: 10;
+}
+
+
+/*  ____________________ mobile ______________________ */
+
+@media (max-width: 767px) {
+  main .intro img {
+    width: 40px;
+  }
+}
+
+
+
+@media (max-width: 484px) {
+  main .intro img {
+    width: 30px;
+  }
+}
