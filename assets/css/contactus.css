@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "MDPrimerTest-Black";
+  src: url("../fonts/MDPrimerTest-Black.otf");
+  font-display: swap;
+}
+
+/*____________________ header ______________________*/
+
+#container header {
+  position: relative;
+  background: url(../images/hero_img.webp) no-repeat center center/cover;
+  height: fit-content !important;
+  border-bottom: 2px solid  var(--primary-color);
+}
+
+#container header::after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 50%;
+  right:  50%;
+  transform: translateX(-50%);
+  background: var(--bkg-primary);
+  width: calc(100vw - 100px);
+  min-width: calc(100vw - 100px);
+  height: 55px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 7;
+  border-left: 2px solid  var(--primary-color);
+  border-top: 2px solid  var(--primary-color);
+  border-right: 2px solid var(--primary-color);
+}
+
+#container header::before {
+  position: absolute;
+  content: '';
+  bottom: -20px;
+  left: 50%;
+  right:  50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+  background: url('../images/players.png') repeat-x center center / contain;
+  filter: drop-shadow(3px 3px 2px rgb(175 156 33 / 100%))
+          drop-shadow(3px 3px 4px rgb(175 156 33 / 80%)) 
+          drop-shadow(5px 5px 5px rgb(0 0 0 / 30%)) 
+          saturate(120%) grayscale(50%);
+  width: calc(100vw - 120px);
+  min-width: calc(100vw - 120px);
+  height: 55px;
+  z-index: 8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle,rgba(0, 4, 255, 0.1) 50%,
+               rgb(0, 0, 0) 90%);
+  opacity: 1;
+}
+
+#container header #hero .hero_content {
+  flex-basis: 60%;
+  padding: 5px 20px 40px;
+  max-width: 700px;
+  border-radius: 20px;
+  z-index: 5;
+}
+
+#container header #hero .hero_content div h1 {
+  font-family: "MDPrimerTest-Black";
+  font-size: clamp(24px, 10vw, 130px);
+  color: var(--bkg-primary);
+  margin: 0;
+  text-shadow: 0 4px 0px rgba(0,0,0,.5), 0 6px 0px rgba(255, 196, 0, 0.5);
+}
+
+#container header #hero .hero_content div span{
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(18px, 5vw, 80px);
+  font-weight: 500;
+  color: rgb(255, 196, 0);
+  text-decoration: underline;
+  margin: 0;
+  text-shadow:
+    0 0 2px rgba(0, 121, 241, 0.9),
+    0 15px 25px rgba(0, 0, 0, 0.5),
+    0 -2px 3px rgba(0, 0, 0, 0.6),
+    0 -5px 10px rgba(55, 0, 253, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.3),
+    0 3px 4px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(47, 0, 255, 0.45);
+}
