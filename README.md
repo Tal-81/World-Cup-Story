@@ -1,6 +1,23 @@
 # World-Cup-Story
 A simple static website built with HTML &amp; CSS that tells the story of the FIFA Men’s World Cup. It highlights tournaments, winners, and historic moments in football history.
 
+**Visit World Cup Story 👇**
+<br>
+<a href="https://tal-81.github.io/World-Cup-Story/" target="_blank">Click here to visit 🏆 <strong> World Cup Story <strong> Website</a>
+
+## 📑 Table of Contents
+- [Project Overview](#project-overview)
+- [Responsive Design](#responsive-design)
+- [Script Languages Used](#script-languages-used)
+- [Technologies Used](#technologies-used)
+- [Sources](#sources-of-images-fonts-and-information)
+- [Screenshots](#screenshots)
+- [Design(Wireframes)](#designwireframes)
+- [User Experience](#user-experience)     
+- [Testing](#testing)
+- [Deployment](#deployment)
+
+<br><br>
 
 ## Project Overview
 
