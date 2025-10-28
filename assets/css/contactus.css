@@ -169,3 +169,24 @@ form .btn {
   padding: 5px 40px;
   font-size: 15px;
 }
+
+/*  ____________________ mobile ______________________ */
+
+@media (max-width: 484px) {
+  form {
+    margin: 30px auto;
+    padding: 20px 8px;
+ }
+}
+
+@media (max-width: 340px) {
+  form {
+    margin: 30px auto;
+    padding: 20px 8px;
+ }
+
+ form textarea {
+  padding: 4px;
+  max-width: 80vw;
+ }
+}
