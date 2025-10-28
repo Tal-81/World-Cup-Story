@@ -69,6 +69,12 @@ p {
   margin: 20px;
 }
 
+input,
+textarea,
+select {
+  font-size: 16px !important;
+}
+
 .btn {
   background: var(--golden-color);
   color: var(--font-color-secondary);
@@ -215,6 +221,7 @@ main {
   transform: scale(1.1);
 }
 
+
 #active_page,
 #active-page {
   opacity: 0.5 !important;
@@ -243,6 +250,7 @@ main {
     transform: translateY(0px);
   }
 }
+
 
 /*  ____________________ footer ______________________ */
 
@@ -293,6 +301,7 @@ footer p {
   text-wrap: nowrap;
 }
 
+
 /*  ____________________ burger-menu ______________________ */
 
 #menu-toggle {
@@ -309,7 +318,6 @@ footer p {
   cursor: pointer;
   z-index: 5;
 }
-
 
 .burger-menu span {
   display: block;
@@ -365,6 +373,7 @@ footer p {
   text-decoration: underline 2px;
 }
 
+
 /*  ____________________ mobile ______________________ */
 
 @media (max-width: 767px) {
@@ -388,4 +397,5 @@ footer p {
     font-weight: 300;
     letter-spacing: 1px;
   }
+
 }
