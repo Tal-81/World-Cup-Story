@@ -18,6 +18,45 @@
     <link rel="stylesheet" href="assets/css/timeline.css" >
   </head>
   <body>
+    <div id="container">
+      <!-- header -->
+      <header>
+        <div class="overlay"></div>
+        <nav>
+          <a href="index.html">
+            <img
+              src="assets/images/worldcup-logo.webp"
+              alt="World Cup Story Logo"
+            >
+          </a>
 
+          <!-- menu in wide screen view -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li id="active_page"><a href="#">Timeline</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+          </ul>
+
+          <!-- menu in mobile & tablet view -->
+          <input type="checkbox" id="menu-toggle" >
+          <label
+            for="menu-toggle"
+            class="burger-menu"
+            aria-label="click here to show the main menu"
+            tabindex="0"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <menu class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" id="active-page">Timeline</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+          </menu>
+        </nav>
+      </header>
+    </div>
   </body>
 </html>
