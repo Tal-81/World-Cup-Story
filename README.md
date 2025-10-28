@@ -186,3 +186,16 @@ My website has been tested and includes a responsive design, a readable navbar, 
 <br><br>
         <img src="assets/images/test_lighthouse.png" style="max-width:180px" alt="Show result of testing Performance SEO Accessibility"/>
 <br>
+
+### Bugs & Fixes
+1.    The form on the contact page zooms in on mobile devices when a user focuses on an input field:
+        * Change font-size from 14px to 16px.
+2.    CSS & Images directory placed in the root:
+        * Create assets directory and move both CSS and Images directory into it.
+3.    Hover pseudo not working on mobile:
+        * Add focus pseudo that works as best alternative to hover in mobile.
+4.    Self closing html item has symbol /:
+        * Remove symbol / from every self closing html item like img, meta because HTML validator gives error when symbol / exists with self closing items.
+
+### Unfixed bugs
+* None
