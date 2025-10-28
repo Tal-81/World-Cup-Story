@@ -30,3 +30,54 @@ This website provides an interactive timeline of the World Cup, starting from th
 *  Images from Adobe Stock.
 *  Fonts and icons from Google Fonts.
 *  Information from Chatgpt.
+
+## Screenshots
+
+*       World Cup Story Website has Three Pages.
+1.  _Home Page (Hero Section, Gallery, Facts)_:
+<br>
+       <img src="assets/images/homepage_hero.png" style="max-width:250px;" alt="Hero section in home page"/>
+       <img src="assets/images/homepage_gallery.png" style="max-width:250px" alt="Gallery section in homepage"/>
+       <img src="assets/images/homepage_facts.png" style="max-width:250px" alt="Facts section in homepage"/>
+<br>     
+
+2. *Timeline (Hero Section, Tournaments)*:
+<br>
+    <img src="assets/images/timeline_hero.png" style="max-width:250px;" alt="Hero section in timeline"/>
+    <img src="assets/images/timeline_tournaments.png" style="max-width:250px" alt="Tournaments section in timeline"/>
+<br>
+  
+3.  *Contact Us (Hero Section, Form)*:
+<br>
+    <img src="assets/images/contactus_hero.png" style="max-width:250px" alt="Hero section in contactus"/>
+    <img src="assets/images/contactus_form.png" style="max-width:250px" alt="Form section in contactus"/>
+<br>
+  
+## Design(Wireframes)
+*   **<u>Desktop Design:</u>**
+1.  _Home Page_:
+<br>
+        <img src="assets/images/homepage_desktop.png" style="max-width:200px" alt="homepage wireframe to desktop"/>
+<br>
+2.  _Timeline Page_:
+<br>
+        <img src="assets/images/timeline_desktop.png" style="max-width:200px" alt="timeline page wireframe to desktop"/>
+<br>
+3.  _Contact Page_:
+<br>
+        <img src="assets/images/contactus_desktop.png" style="max-width:200px" alt="contact us page framework to desktop"/>
+<br>
+
+*   **<u>Mobile Design:</u>**
+1.  _Home Page_:
+<br>
+        <img src="assets/images/homepage_mobile.png" style="max-height:100vh; max-width:150px" alt="homepage wireframe to mobile"/>
+<br>
+2.  _Timeline Page_:
+<br>
+        <img src="assets/images/timeline_mobile.png" style="max-height:100vh; max-width:150px" alt="timeline page wireframe to mobile"/>
+<br>
+3.  _Contact Page_:
+<br>
+        <img src="assets/images/contactus_mobile.png" style="max-height:100vh; max-width:150px" alt="contact us page framework to mobile"/>
+<br>
