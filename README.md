@@ -199,3 +199,25 @@ My website has been tested and includes a responsive design, a readable navbar, 
 
 ### Unfixed bugs
 * None
+
+## Deployment
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps.
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Tal-81/World-Cup-Story)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. In the menu on the left-hand side, under "Code and automation", select "Pages".
+4. Under "Source", click the dropdown which says "None" and select "main", then click "Save".
+5. Refresh the page if it does not do so automatically.
+6. A link to the published site will appear at the top of the page.
+<br>
+* <a href="https://tal-81.github.io/World-Cup-Story/" target="_blank">Click here to visit 🏆 <strong> World Cup Story <strong> Website</a>
+<br><br>
+
+## Acknowledgements
+
+* The whole team at [Code Institute](https://codeinstitute.net/) for their teaching and support.
+* To [www.roadtrips.com](https://www.roadtrips.com/luxury-travel-guides/world-cup-ultimate-guide/) Get a list of all the World Cup winners from the first tournament to the last.
+
+[Back Top](#world-cup-story)
