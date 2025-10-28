@@ -15,3 +15,18 @@ This website provides an interactive timeline of the World Cup, starting from th
 
 * ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 * ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+
+## Technologies Used
+
+*  ![Adobe Photoshop](https://img.shields.io/badge/Photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white) (Edit raster images).
+*  ![Adobe Illustrator](https://img.shields.io/badge/Illustrator-%23FF9A00.svg?style=flat-square&logo=adobe%20illustrator&logoColor=white) (Design a logo as a vector Image).
+*  Formsubmit.co (Connect my form to this form endpoint service).
+*  Chatgpt (to support and answer on my questions).
+*  ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+*  ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+
+## Sources of images, fonts and information
+
+*  Images from Adobe Stock.
+*  Fonts and icons from Google Fonts.
+*  Information from Chatgpt.
